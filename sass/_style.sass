@@ -1,0 +1,106 @@
+$prime: #fae207
+
+body
+  font-family: "Open Sans"
+  .top-bar
+    overflow: hidden
+    .name
+      h1
+        background: image-url("badge.png") no-repeat
+        text-indent: -9999em
+        font-size: .1em
+        padding: 0 10px
+        margin: 3px 10px
+
+    .important
+      a
+        color: $prime
+
+    .search
+      input
+        background: #373632
+        color: white
+        border: 0
+
+    .login
+      border-left: 1px solid $prime
+
+  .top-bar-section
+    ul
+      li
+        a
+          font-size: .9em
+
+
+  .banner
+    background: image-url("banner.png") $prime no-repeat bottom
+    display: block
+    height: 320px
+
+    .flags
+      margin-top: 10px
+      a
+        width: 36px
+        height: 24px
+        display: block
+
+        &.flag-br
+          background: image-url("br.png") no-repeat
+
+        &.flag-es
+          background: image-url("es.png") no-repeat
+
+        &.flag-us
+          background: image-url("en.png") no-repeat
+
+        &.flag-it
+          background: image-url("it.png") no-repeat
+
+    h2
+      background: image-url("logo.png") no-repeat
+      text-indent: -9999em
+      font-size: .1em
+      width: 400px
+      height: 134px
+      margin: 0px 30px
+
+    p
+      text-align: center
+
+      &.data
+        font-family: "Open Sans"
+        font-size: 2.6em
+        font-weight: 300
+        margin: 5px 0 0 0
+
+      &.local
+        font-size: 1.2em
+
+  .slideshow
+    overflow: hidden
+    height: 250px
+
+  .main-news, .post
+    margin-top: 20px
+
+    h4
+      font-weight: normal
+
+    h5
+      font-weight: 600
+
+    .meta
+      color: #7f8c8d
+      font-size: .8em
+
+    img
+      margin-top: 10px
+
+    p.excerpt
+      margin-top: 5px
+      font-size: .9em
+      text-align: justify
+
+    a.read-more
+      color: #c0392b
+      font-size: .8em
